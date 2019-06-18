@@ -1,6 +1,6 @@
 public class Account_handler {
     
-    public static Account insertNewAccount(String s)
+    public static Account insertNewAccounthi(String s)
     {
         try
         {
