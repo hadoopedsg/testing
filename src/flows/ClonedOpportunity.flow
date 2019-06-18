@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <name>Update_opportunit_fields</name>
+        <label>Update opportunit fields</label>
+        <locationX>188</locationX>
+        <locationY>60</locationY>
+        <assignmentItems>
+            <assignToReference>opportunity.StageName</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Prospecting</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>opportunity.CloseDate</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>ninetyDays</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Clone_Opportunity</targetReference>
+        </connector>
+    </assignments>
+    <formulas>
+        <name>ninetyDays</name>
+        <dataType>Date</dataType>
+        <expression>TODAY() + 90</expression>
+    </formulas>
+    <interviewLabel>ClonedOpportunity {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>ClonedOpportunity</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>Clone_Opportunity</name>
+        <label>Clone Opportunity</label>
+        <locationX>362</locationX>
+        <locationY>64</locationY>
+        <inputReference>opportunity</inputReference>
+    </recordCreates>
+    <startElementReference>Update_opportunit_fields</startElementReference>
+    <status>Draft</status>
+    <variables>
+        <name>opportunity</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Opportunity</objectType>
+    </variables>
+    <variables>
+        <name>oppProductsOriginal</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>OpportunityLineItem</objectType>
+    </variables>
+</Flow>

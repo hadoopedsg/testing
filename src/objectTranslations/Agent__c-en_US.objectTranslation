@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Agent</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Agents</value>
+    </caseValues>
+    <fields>
+        <label><!-- Agent&apos;s Email --></label>
+        <name>Agent_s_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Agent&apos;s Phone --></label>
+        <name>Agent_s_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>Region__c</name>
+        <picklistValues>
+            <masterLabel>East India</masterLabel>
+            <translation><!-- East India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North India</masterLabel>
+            <translation><!-- North India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South India</masterLabel>
+            <translation><!-- South India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West India</masterLabel>
+            <translation><!-- West India --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

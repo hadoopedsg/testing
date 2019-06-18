@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Low Ink</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Low Inks</value>
+    </caseValues>
+    <fields>
+        <label><!-- Ink Percentage --></label>
+        <name>Ink_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Printer Model --></label>
+        <name>Printer_Model__c</name>
+    </fields>
+    <fields>
+        <label><!-- Serial Number --></label>
+        <name>Serial_Number__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

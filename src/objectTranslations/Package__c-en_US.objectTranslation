@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Package</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Packages</value>
+    </caseValues>
+    <fields>
+        <label><!-- Cost --></label>
+        <name>Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destination --></label>
+        <name>Destination__c</name>
+        <picklistValues>
+            <masterLabel>Badrinath</masterLabel>
+            <translation><!-- Badrinath --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dharamshala</masterLabel>
+            <translation><!-- Dharamshala --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kedarnath</masterLabel>
+            <translation><!-- Kedarnath --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kufri</masterLabel>
+            <translation><!-- Kufri --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ladakh</masterLabel>
+            <translation><!-- Ladakh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leh</masterLabel>
+            <translation><!-- Leh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manali</masterLabel>
+            <translation><!-- Manali --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mcleodganj</masterLabel>
+            <translation><!-- Mcleodganj --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shimla</masterLabel>
+            <translation><!-- Shimla --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Discount Available --></label>
+        <name>Discount_Available__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source --></label>
+        <name>Source__c</name>
+        <picklistValues>
+            <masterLabel>Amritsar</masterLabel>
+            <translation><!-- Amritsar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chandigarh</masterLabel>
+            <translation><!-- Chandigarh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jaipur</masterLabel>
+            <translation><!-- Jaipur --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jalandhar</masterLabel>
+            <translation><!-- Jalandhar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kanpur</masterLabel>
+            <translation><!-- Kanpur --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lucknow</masterLabel>
+            <translation><!-- Lucknow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Delhi</masterLabel>
+            <translation><!-- New Delhi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Panipat</masterLabel>
+            <translation><!-- Panipat --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Trip Duration --></label>
+        <name>Trip_Duration__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

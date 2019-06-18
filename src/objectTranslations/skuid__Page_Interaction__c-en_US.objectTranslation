@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Data --></label>
+        <name>skuid__Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Page --></label>
+        <name>skuid__Page__c</name>
+        <relationshipLabel><!-- Page Interactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>skuid__Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>skuid__User__c</name>
+        <relationshipLabel><!-- Page Interactions --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

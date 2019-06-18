@@ -1,0 +1,20 @@
+<apex:page >
+      <script>
+    function getCompo(){
+    var evt = $A.get("e.force:navigateToComponent");
+    evt.setParams({
+        componentDef: "c:AccountDetail",
+        componentAttributes:{
+        "c.accounts"
+        }
+            
+        
+        
+    });evt.fire(); 
+        }
+    </script>
+
+    <apex:form >
+    <apex:commandButton value="Call Lightning" action="{!AllAccountDetail}"/>
+        </apex:form>
+</apex:page>

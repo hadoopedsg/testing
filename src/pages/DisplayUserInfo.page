@@ -1,0 +1,9 @@
+<apex:page >
+    
+    <apex:pageBlock >
+    	<p>
+            Logged in User : {! $user.FirstName}
+        </p>
+    </apex:pageBlock>
+    
+</apex:page>

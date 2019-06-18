@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Bookings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Bookings</value>
+    </caseValues>
+    <fields>
+        <label><!-- Agent --></label>
+        <name>Agent_info__c</name>
+        <relationshipLabel><!-- Bookings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer --></label>
+        <name>Customer__c</name>
+        <relationshipLabel><!-- Bookings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Discounted Price --></label>
+        <name>Discounted_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>In Process</masterLabel>
+            <translation><!-- In Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Send Schedule Details</masterLabel>
+            <translation><!-- Send Schedule Details --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Pick a date after 15 days from today. --></help>
+        <label><!-- Trip Date --></label>
+        <name>Trip_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Package --></label>
+        <name>select_Package__c</name>
+        <relationshipLabel><!-- Bookings --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Cannot book for such a short notice. --></errorMessage>
+        <name>book_before_15_days</name>
+    </validationRules>
+</CustomObjectTranslation>

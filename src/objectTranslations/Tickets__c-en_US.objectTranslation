@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Tickets</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Tickets</value>
+    </caseValues>
+    <fields>
+        <label><!-- Concert --></label>
+        <name>Concert__c</name>
+        <relationshipLabel><!-- Tickets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer --></label>
+        <name>Customer__c</name>
+        <relationshipLabel><!-- Tickets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date of purchase --></label>
+        <name>Date_of_purchase__c</name>
+    </fields>
+    <fields>
+        <label><!-- No of tickets purchased --></label>
+        <name>No_of_tickets_purchased__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Price --></label>
+        <name>Total_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- WAIT --></label>
+        <name>WAIT_del__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

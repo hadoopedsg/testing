@@ -1,0 +1,29 @@
+<apex:page >
+    <apex:includeLightning />
+   
+    <div id="LcDisplayId"></div> 
+    
+ <script>
+  function cl()
+    {
+    $Lightning.use("c:LCVFapp", function() {
+     
+    $Lightning.createComponent("c:callLCFromVF",
+    { 
+        currentUserName : '{!$User.FirstName} {!$User.LastName}' 
+ 	},
+   "LcDisplayId",
+    function(component) {
+        
+        component.set("v.accId" , '{!$CurrentPage.parameters.recId}');
+    });
+ });
+    }
+    
+ </script>
+    
+    <apex:form >
+    <apex:commandButton value="Call" onclick="cl()"/>
+    </apex:form>
+    
+</apex:page>

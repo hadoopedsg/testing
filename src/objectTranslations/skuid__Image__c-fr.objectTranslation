@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Image</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Images</value>
+    </caseValues>
+    <fields>
+        <label><!-- AttachmentId --></label>
+        <name>skuid__AttachmentId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Needs Recompute --></label>
+        <name>skuid__NeedsRecompute__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>Non</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Oui</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Url --></label>
+        <name>skuid__Url__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nom de l&apos;image</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>entersalutation</fullName>
+        <field>Salutation__c</field>
+        <formula>&quot;Mr.&quot;</formula>
+        <name>entersalutation</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Changesalutation</fullName>
+        <actions>
+            <name>entersalutation</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>ADV_Customer__c.CreatedById</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>ADV_Customer__c.Gender__c</field>
+            <operation>equals</operation>
+            <value>MALE</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

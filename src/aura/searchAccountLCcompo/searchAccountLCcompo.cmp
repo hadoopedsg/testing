@@ -1,0 +1,42 @@
+<aura:component controller="AccountSearchLC">
+    
+    <aura:attribute name="searchResult" type="list"/>
+    <aura:attribute name="searchKeyword" type="String"/>
+    <aura:attribute name="message" type="boolean" default="false"/>
+    <aura:attribute name="totalNumberOfRecord" type="integer" default="0"/>
+    
+    <lightning:layout>
+    	<lightning:layoutItem>
+            <lightning:input value="{!v.searchKeyword}" required="true" aura:id="searchField" label="Account Name"/>
+        </lightning:layoutItem>   
+        
+        <lightning:layoutItem>
+            <lightning:button onclick="{!c.Search}" variant="brand" label="Search"/>
+        </lightning:layoutItem>
+        
+    </lightning:layout>
+    
+    <table>
+    	<thead>
+            <tr>
+                <th><div title="S.no">S.no</div></th>
+                <th><div title="Account Name">Account Name</div></th>
+                <th><div title="Phone">Phone</div></th>
+            </tr>
+        </thead>
+        <tbody>
+        	<aura:iteration items="{!v.searchResult}" var="acc" indexVar="count">
+            	<tr>
+                	<td> <div>{!count+1}</div></td>
+                </tr>
+                <tr>
+                	<td> <div>{!acc.Name}</div></td>
+                </tr>
+                <tr>
+                	<td> <div>{!acc.Phone}</div></td>
+                </tr>
+            </aura:iteration>
+        </tbody>
+    </table>
+	
+</aura:component>

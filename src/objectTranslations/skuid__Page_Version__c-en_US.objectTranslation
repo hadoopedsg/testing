@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- API Version --></label>
+        <name>skuid__API_Version__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>skuid__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Auto Save --></label>
+        <name>skuid__IsAutoSave__c</name>
+    </fields>
+    <fields>
+        <label><!-- Layout2 --></label>
+        <name>skuid__Layout2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Layout3 --></label>
+        <name>skuid__Layout3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Layout4 --></label>
+        <name>skuid__Layout4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Layout5 --></label>
+        <name>skuid__Layout5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Layout --></label>
+        <name>skuid__Layout__c</name>
+    </fields>
+    <fields>
+        <label><!-- Page --></label>
+        <name>skuid__Page__c</name>
+        <relationshipLabel><!-- Page Revisions --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

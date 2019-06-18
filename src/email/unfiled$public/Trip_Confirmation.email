@@ -1,0 +1,6 @@
+Hi John Smith
+
+I made a booking for the package {!Package__c.Name} on {!Bookings__c.Trip_Date__c} . 
+
+Regards,
+{!ADV_Customer__c.Name}
