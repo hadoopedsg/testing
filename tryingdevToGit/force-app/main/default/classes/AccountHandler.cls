@@ -2,7 +2,7 @@ public class AccountHandler {
     
     public static Account insertNewAccount(String s)
     {
-        try
+        try //garg
         {
             Account a=new Account(Name=s);
             insert a;

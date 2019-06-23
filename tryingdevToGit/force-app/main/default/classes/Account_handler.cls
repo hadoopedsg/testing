@@ -2,7 +2,7 @@ public class Account_handler {
     
     public static Account insertNewAccount(String s)
     {
-        try
+        try //hye
         {
         	Account a=new Account(Name=s);
         	insert a;
