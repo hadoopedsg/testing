@@ -1,0 +1,15 @@
+<aura:component >
+  <!--declare aura attributes-->	
+    <aura:attribute name="accId" type="string"/>
+    
+    <aura:attribute name="currentUserName" type="string"/>
+    
+     
+   
+    
+    <p><span class="slds-badge">LogIn User :<b>{!v.currentUserName}</b></span></p>
+   
+    <br/>
+    
+    <button class="slds-button slds-button_brand" onclick="{!c.showAlert}">Show Alert</button>
+</aura:component>

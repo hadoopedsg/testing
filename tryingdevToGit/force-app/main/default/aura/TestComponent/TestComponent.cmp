@@ -1,0 +1,16 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" access="global" >
+
+    <p class="para">Hello World</p>
+    
+    <div> <p class="para1"> Hello world in p Tag </p> </div>
+	
+        <p class="para2">
+    <lightning:formattedText value="Hello World in aura"/>
+            </p>
+    
+    <button>HTML Button</button>
+
+
+	<lightning:button variant="brand" label="button" />
+
+</aura:component>
