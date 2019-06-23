@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EventDelivery xmlns="http://soap.sforce.com/2006/04/metadata">
+    <eventParameters>
+        <parameterName>FlowVersionName</parameterName>
+        <parameterValue>Receive_ink_status-1</parameterValue>
+    </eventParameters>
+    <eventSubscription>Receive_ink_status_1</eventSubscription>
+    <referenceData>Receive_ink_status_1</referenceData>
+    <type>StartFlow</type>
+</EventDelivery>

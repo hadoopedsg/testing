@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>position</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>positions</value>
+    </caseValues>
+    <layouts>
+        <layout>position</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Technical Skills --></label>
+            <section>Technical Skills</section>
+        </sections>
+        <sections>
+            <label><!-- compensation --></label>
+            <section>compensation</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>recordTypeLayout1</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Technical Skills --></label>
+            <section>Technical Skills</section>
+        </sections>
+        <sections>
+            <label><!-- compensation --></label>
+            <section>compensation</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- engineerUser --></label>
+        <name>engineerUser</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- supportUser --></label>
+        <name>supportUser</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Max Pay should be less than 1lac --></errorMessage>
+        <name>myRule</name>
+    </validationRules>
+</CustomObjectTranslation>

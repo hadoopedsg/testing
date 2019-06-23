@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>skuid__Page_Name_Validation</fullName>
+    <active>true</active>
+    <description>Restricts the characters that can be used in a Page&#39;s name.</description>
+    <errorConditionFormula>OR(
+CONTAINS(Name,&quot; &quot;),
+CONTAINS(Name,&quot;&#39;&quot;),
+CONTAINS(Name,&#39;&quot;&#39;),
+CONTAINS(Name,&quot;&amp;&quot;),
+CONTAINS(Name,&quot;?&quot;),
+ISBLANK(Name)
+)</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>A Page&#39;s name cannot be blank, and cannot contain spaces, &amp;, ?, quotes, or other characters not permitted in URLs.</errorMessage>
+</ValidationRule>

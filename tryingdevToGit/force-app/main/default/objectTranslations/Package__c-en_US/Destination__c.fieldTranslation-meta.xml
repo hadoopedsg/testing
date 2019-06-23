@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Destination --></label>
+    <name>Destination__c</name>
+    <picklistValues>
+        <masterLabel>Badrinath</masterLabel>
+        <translation><!-- Badrinath --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dharamshala</masterLabel>
+        <translation><!-- Dharamshala --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kedarnath</masterLabel>
+        <translation><!-- Kedarnath --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kufri</masterLabel>
+        <translation><!-- Kufri --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ladakh</masterLabel>
+        <translation><!-- Ladakh --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Leh</masterLabel>
+        <translation><!-- Leh --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manali</masterLabel>
+        <translation><!-- Manali --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mcleodganj</masterLabel>
+        <translation><!-- Mcleodganj --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shimla</masterLabel>
+        <translation><!-- Shimla --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

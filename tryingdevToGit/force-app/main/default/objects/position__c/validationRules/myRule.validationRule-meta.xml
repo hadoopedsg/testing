@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>myRule</fullName>
+    <active>false</active>
+    <errorConditionFormula>Max_Pay__c  &gt; 100000</errorConditionFormula>
+    <errorDisplayField>Max_Pay__c</errorDisplayField>
+    <errorMessage>Max Pay should be less than 1lac</errorMessage>
+</ValidationRule>
